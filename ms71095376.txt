@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "ai4ia.cc",
+  "Id": "14985775-adbe-4b9d-8f87-e08b6c3d1062"
+}
