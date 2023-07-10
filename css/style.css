@@ -1676,16 +1676,16 @@ section.cross_layout {
 -------------------------------------------------------------------*/
 
 footer {
-    padding: 95px 0 0;
+    padding: 5px 0 0;
 }
 
 .footer_logo {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .footer_top {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .footer_blog {
