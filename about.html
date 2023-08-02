@@ -1,275 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>AI4IA - AI For Industrial Application</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- site icons -->
-      <link rel="icon" href="images/fevicon/fevicon.png" type="image/png" />
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css" />
-      <!-- site css -->
-      <link rel="stylesheet" href="css/style.css" />
-      <!-- responsive css -->
-      <link rel="stylesheet" href="css/responsive.css" />
-      <!-- colors css -->
-      <link rel="stylesheet" href="css/colors.css" />
-      <!-- wow animation css -->
-      <link rel="stylesheet" href="css/animate.css" />
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-   </head>
-   <body id="default_theme" class="about">
-      <!-- header -->
-      <header class="header header_style1">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-9 col-lg-10">
-                  <div class="logo"><a href="index.html"><img src="images/logo.png" alt="#" /></a></div>
-                  <div class="main_menu float-right">
-                     <div class="menu">
-                        <ul class="clearfix">
-                           <li><a href="index.html">Home</a></li>
-                           <li class="active"><a href="about.html">About</a></li>
-                           <li><a href="service.html">Service</a></li>
-                           <li><a href="screenshots.html">Screenshots</a></li>
-                           <li><a href="pricing.html">Product</a></li>
-                           <li><a href="team.html">Team</a></li>
-                           <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-3 col-lg-2">
-                  <div class="right_bt"><a class="bt_main" href="index.html">Get Support</a> </div>
-               </div>
+
+<head>
+    <meta charset="utf-8">
+    <title>AIoT Lab - Artificial Intelligence in IoT</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <img class="img-fluid" src="img/Logo_AIoT.png">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link active">About</a>
+                        <a href="publication.html" class="nav-item nav-link">Publications</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+
+                       <a href="team.html" class="dropdown-item">Our Team</a>
+<!--                                <a href="faq.html" class="dropdown-item">FAQs</a>-->
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="demo.html" class="dropdown-item">Demo Request</a>
+                                <a href="photos.html" class="dropdown-item">Photo Gallery</a>
+<!--                                <a href="404.html" class="dropdown-item">404 Page</a>-->
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+<!--
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+-->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">About Us</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About Us</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;">
+                </div>
             </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Vision Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/about-img.png">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Vision</div>
+                    <h1 class="mb-4">Our Vision</h1>
+                    <p class="mb-4">
+					By the year 2030, we aim to become a leading Lab in the field of Artificial Intelligence (AI) combined with the Internet of Things (IoT) in Vietnam. Our focus will be on breakthrough research and innovative training, supporting the technological advancements and applications within the community, and actively contributing to the sustainable development of the country.
+					</p>
+                    <div class="d-flex align-items-center mt-4">
+                        <a class="btn btn-primary rounded-pill px-4 me-3">Find us</a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/aiotlab.vn"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.tiktok.com/@aiotlabvn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+</svg>
+						</a>
+                        <a class="btn btn-outline-primary btn-square me-3" href="https://www.youtube.com/channel/UCAoka7OSzy_KUtwYrGjyHHg"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href="https://www.linkedin.com/in/aiot-lab-vn-b96070286/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vision End -->
+
+
+    <!-- Feature Start -->
+
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Main Objectives</div>
+                    <h1 class="text-white mb-4">Our Main Objectives</h1>
+                    <p class="text-light mb-4">By focusing on these main objectives, AIoT Lab VN strives to be a driving force in the advancement and application of Artificial Intelligence and the Internet of Things,
+						making a positive impact on individuals, businesses, and the community at large.</p>
+                    <div class="d-flex align-items-center text-white mb-3">
+
+                           <div class="me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+
+                        <span>Establishing a professional Lab with a team of passionate and enthusiastic members dedicated to AI and IoT.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+
+                           <div class="me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+
+                        <span>Creating a creative learning and research environment, encouraging innovation and critical thinking.</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Providing hands-on project-based training, developing demos from research, scaling up, and fostering spin-offs.</span>
+                    </div>
+
+
+					<div class="d-flex align-items-center text-white mb-3">
+                        <div class="me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Engaging in collaborative research projects and partnerships with leading organizations,
+							businesses, and research institutions both nationally and internationally.</span>
+                    </div>
+
+
+					<div class="d-flex align-items-center text-white mb-3">
+                        <div class="me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Developing practical AIoT applications to address social issues and contribute to the sustainable development of the community.</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/robot.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature End -->
+
+
+        <!-- Development Phases Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about">
+                        <img class="img-fluid" src="img/cute-robot.png">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Development Phases</div>
+                    <h1 class="mb-4">Our Development Phases</h1>
+                    <h6 class="mb-4">
+					Phase 1 (2023-2025): Establishment and Consolidation
+					</h6>
+
+                    <p class="mb-3"><i class="fa fa-check text-primary me-2"></i>Building a team of members and defining a clear direction for the Lab's objectives and core values.</p>
+                    <p class="mb-3"><i class="fa fa-check text-primary me-2"></i>Designing and implementing courses, workshops, seminars, and other engaging activities to attract and motivate participating members.</p>
+                    <p class="mb-3"><i class="fa fa-check text-primary me-2"></i>
+                    Constructing simple AIoT models and deploying basic applications to stimulate interest and deepen understanding in this field.
+                    </p>
+
+                     <h6 class="mb-4">
+					Phase 2 (2026-2030): Expansion and Advancement
+					</h6>
+
+                    <p class="mb-3"><i class="fa fa-check text-primary me-2"></i>
+                    Expanding the team of members and attracting influential researchers and experts in the AI and IoT fields.
+                    </p>
+
+                    <p class="mb-3"><i class="fa fa-check text-primary me-2"></i>
+                   Developing more specialized training programs and designing practical research projects to help members hone their skills and knowledge.
+                    </p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Development Phases End -->
+
+
+    <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-white-50 footer pt-5">
+     <div class="container py-5">
+       <div class="row g-5">
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+           <a href="index.html" class="d-inline-block mb-3">
+             <img class="img-fluid" src="img/Logo_AIoT.png">
+           </a>
+           <p class="mb-0">Focused on innovation and collaboration, the lab drives advancements in technology, empowering sustainable growth and transformative solutions for the nation's future.</p>
          </div>
-      </header>
-      <section id="banner_parallax" class="inner_page_banner slide_banner1">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="full">
-                     <div class="slide_cont">
-                        <h2>About us</h2>
-                     </div>
-                  </div>
-               </div>
-            </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+           <h5 class="text-white mb-4">Get In Touch</h5>
+           <p>
+             <i class="fa fa-map-marker-alt me-3"></i>Room 207, Information Technology Park, Vietnam National University Ho Chi Minh City (ITP), Linh Trung Ward, Thuc Duc City, Ho Chi Minh City, Vietnam
+           </p>
+           <p>
+             <i class="fa fa-phone-alt me-3"></i>(028) 37244270 ext. 3232
+           </p>
+           <p>
+             <i class="fa fa-envelope me-3"></i>info@aiotlab.vn
+           </p>
+           <div class="d-flex pt-2">
+             <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/aiotlab.vn">
+               <i class="fab fa-facebook-f"></i>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@aiotlabvn">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                 <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+               </svg>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCAoka7OSzy_KUtwYrGjyHHg">
+               <i class="fab fa-youtube"></i>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/aiot-lab-vn-b96070286/">
+               <i class="fab fa-linkedin-in"></i>
+             </a>
+           </div>
          </div>
-      </section>
-      <!-- end header -->
-      <!-- section -->
-      <section class="layout_padding padding_top_0">
-         <div class="container">
-            <div class="row margin_bottom_30">
-               <!-- featured cont -->
-               <div class="col-md-8 cont_theme_blog">
-                  <div class="full">
-                     <h3>Unique app with different features</h3>
-                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!</p>
-                  </div>
-               </div>
-               <!-- end featured cont -->
-               <!-- featured image -->
-               <div class="col-md-4 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
-                  <div class="full">
-                     <div class="center"><img src="images/ser1.png" alt="#" /></div>
-                  </div>
-               </div>
-               <!-- end featured image -->
-            </div>
-            <div class="row margin_bottom_30">
-               <!-- featured image -->
-               <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.5" data-wow-duration="1s">
-                  <div class="full">
-                     <div class="center"><img src="images/ser2.png" alt="#" /></div>
-                  </div>
-               </div>
-               <!-- end featured image -->
-               <!-- featured cont -->
-               <div class="col-md-8 cont_theme_blog">
-                  <div class="full">
-                     <h3>Why it’s best app for your business</h3>
-                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!</p>
-                  </div>
-               </div>
-               <!-- end featured cont -->
-            </div>
-            <div class="row margin_bottom_30">
-               <!-- featured cont -->
-               <div class="col-md-8 cont_theme_blog">
-                  <div class="full">
-                     <h3>AI4IA integrated all populatar tools</h3>
-                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br><br>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!</p>
-                  </div>
-               </div>
-               <!-- end featured cont -->
-               <!-- featured image -->
-               <div class="col-md-4 wow fadeInRight" data-wow-delay="0.5" data-wow-duration="1s">
-                  <div class="full">
-                     <div class="center"><img src="images/ser3.png" alt="#" /></div>
-                  </div>
-               </div>
-               <!-- end featured image -->
-            </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+           <h5 class="text-white mb-4">Popular Link</h5>
+           <a class="btn btn-link" href="about.html">About Us</a>
+           <a class="btn btn-link" href="contact.html">Contact Us</a>
+           <a class="btn btn-link" href="publication.html">Publications</a>
+           <a class="btn btn-link" href="project.html">Projects</a>
          </div>
-      </section>
-      <!-- end section -->
-      <!-- section -->
-      <section class="layout_padding gradiant_bg cross_layout">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="full text_align_center white_fonts">
-                     <div class="heading_main center_head_border heading_style_1">
-                        <h2>Easy <span>Steps</span></h2>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row step_section">
-               <div class="offset-xl-1 col-xl-10 col-md-12">
-                  <div class="row">
-                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                        <div class="step_blog arrow_right_step">
-                           <div class="step_inner">
-                              <i class="fa fa-diamond"></i><br>
-                              <p>Go app store</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                        <div class="step_blog">
-                           <div class="step_inner">
-                              <i class="fa fa-user"></i><br>
-                              <p>Create an Account</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                        <div class="step_blog">
-                           <div class="step_inner">
-                              <i class="fa fa-download"></i><br>
-                              <p>Download & Install</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                        <div class="step_blog">
-                           <div class="step_inner">
-                              <i class="fa fa-thumbs-up"></i><br>
-                              <p>Enjoy & Rate us!</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+           <h5 class="text-white mb-4">Our Services</h5>
+           <a class="btn btn-link" href="">Research and Development</a>
+           <a class="btn btn-link" href="">Education & Science</a>
+           <a class="btn btn-link" href="">Prototyping and Product Development</a>
+           <a class="btn btn-link" href="">Collaborative Projects</a>
+           <a class="btn btn-link" href="">Technology Transfer</a>
          </div>
-      </section>
-      <!-- end section -->
-      <!-- footer -->
-      <footer class="footer_style_2">
-         <div class="footer_top">
-            <div class="container">
-               <div class="row">
-                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin_bottom_30">
-                     <div class="full width_9" style="margin-bottom:25px;"> <a href="index.html"><img class="img-responsive" width="250" src="images/logo.png" alt="#"></a> </div>
-                     <div class="full width_9">
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                     </div>
-                     <div class="full width_9">
-                        <p>the vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati..</p>
-                     </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 margin_bottom_30">
-                     <div class="full">
-                        <div class="footer_blog_2 width_9">
-                           <h3>Twitter Feed</h3>
-                           <p><i class="fa fa-twitter"></i> Creative_Talent - 26 mins
-                              Te invitamos a seguir la cta. de WEntrepreneur_ ¡Atrévete! #Emprendimiento #PyMES #Economía #Bussines #Negocios https://t.co/Y7tZMmxGHn
-                           </p>
-                           <p><i class="fa fa-twitter"></i> Creative_Talent - 26 mins
-                              Te invitamos a seguir la cta. de WEntrepreneur_ ¡Atrévete! #Emprendimiento #PyMES #Economía #Bussines #Negocios https://t.co/Y7tZMmxGHn
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 margin_bottom_30">
-                     <div class="full">
-                        <div class="footer_blog_2">
-                           <h3>Social</h3>
-                        </div>
-                     </div>
-                     <div class="full">
-                        <ul class="footer-links">
-                           <li><a href="#"><i class="fa fa-facebook"></i> 256 Likes</a></li>
-                           <li><a href="#"><i class="fa fa-github"></i> 57+ Projects</a></li>
-                           <li><a href="#"><i class="fa fa-twitter"></i> 1,258 Followers</a></li>
-                           <li><a href="#"><i class="fa fa-pinterest"></i> 2538+ Pins</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 margin_bottom_30">
-                     <div class="full">
-                        <div class="footer_blog_2 width_9">
-                           <h3>Blog</h3>
-                        </div>
-                        <div class="blog_post_footer">
-                           <div class="blog_post_img"> <img width="80" height="80" src="images/scr1.png" alt="#"> </div>
-                           <div class="blog_post_cont">
-                              <p class="date">July 22, 2015</p>
-                              <p class="post_head">Round and round like a carousel</p>
-                           </div>
-                        </div>
-                        <div class="blog_post_footer">
-                           <div class="blog_post_img"> <img width="80" height="80" src="images/scr2.png" alt="#"> </div>
-                           <div class="blog_post_cont">
-                              <p class="date">July 22, 2015</p>
-                              <p class="post_head">Round and round like a carousel</p>
-                           </div>
-                        </div>
-                        <div class="blog_post_footer">
-                           <div class="blog_post_img"> <img width="80" height="80" src="images/scr3.png" alt="#"> </div>
-                           <div class="blog_post_cont">
-                              <p class="date">July 22, 2015</p>
-                              <p class="post_head">Round and round like a carousel</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+       </div>
+     </div>
+     <div class="container wow fadeIn" data-wow-delay="0.1s">
+       <div class="copyright">
+         <div class="row">
+           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> &copy; <a class="border-bottom" href="#">AIoT Lab</a>, All Right Reserved. </div>
+           <div class="col-md-6 text-center text-md-end">
+             <div class="footer-menu">
+               <a href="">Home</a>
+               <a href="">Cookies</a>
+               <a href="">Help</a>
+               <a href="">FAQs</a>
+             </div>
+           </div>
          </div>
-         <!-- footer bottom -->
-         <div class="footer_bottom">
-            <p>Dessigned and developed by <strong>AI4IA</strong></p>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!--=========== js section ===========-->
-      <!-- jQuery (necessary for Bootstrap's JavaScript) -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <!-- wow animation -->
-      <script src="js/wow.js"></script>
-      <!-- custom js -->
-      <script src="js/custom.js"></script>
-      <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-      <!-- end google map js -->
-   </body>
+       </div>
+     </div>
+   </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>

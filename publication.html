@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AIoT Lab - Artificial Intelligence in IoT</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <img class="img-fluid" src="img/Logo_AIoT.png">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="publication.html" class="nav-item nav-link active">Publications</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+<!--                                <a href="faq.html" class="dropdown-item">FAQs</a>-->
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="demo.html" class="dropdown-item">Demo Request</a>
+                                <a href="photos.html" class="dropdown-item">Photo Gallery</a>
+<!--                                <a href="404.html" class="dropdown-item">404 Page</a>-->
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+<!--
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+-->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Our Publications</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Our Publications</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light py-5">
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
+            <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Publications</div>
+            <h1 class="mb-4">2023</h1>
+            <ul>
+              <li>Huynh Kha Tu, Ly Tu Nga:&nbsp;A deep learning model of majors consulting support. Science &amp; Technology Development Journal, ISSN 1859-0128, Accepted (June 2023)</li>
+              <li>Hoang Linh Nguyen, Huynh Kha Tu: New model for low-end computers: ResNet and VGG-16. Science &amp; Technology Development Journal 26(1): 2672-2680 (May 2023), ISSN 1859-0128.</li>
+              <li>Huynh Kha Tu, Thi Phuong Linh Le, Muhammad Arif - The Superior University, Thien Khai Tran-University of Foreign Languages and Information Technology: A Deep Learning Model of Traffic Signs in Panoramic Images Detection. Intelligent Automation &amp; Soft Computing 37(1): 402-418 (April 2023), ISSN 2326-005X</li>
+              <li>Hoang Linh Nguyen, Huynh Kha Tu : A deep learning model for splicing image detection. REV Journal on Electronics and Communications (REV-JEC), ISSN 1859 &ndash; 378X, Accepted (June 2023)</li>
+              <li> Anh Kiet Huynh, Le Duy Tan, Huynh Kha Tu: <a href="https://link.springer.com/chapter/10.1007/978-3-031-29104-3_31"> License Plate Detection and Recognition Using CRAFT and LSTM</a>. In proceedings of 15th Int. Symposium on Intelligent Distributed Computing (IDC 2022). ISBN 978-3-031-29104-3. Springer Cham (April 2023). </li>
+              <li> Le Duy Tan, Huynh Phuong Thanh Nguyen, Huynh Kha Tu, Razvan Beuran: <a href="https://ieeexplore.ieee.org/document/10013873">Smart Grid Cyber-Attack Analysis and Countermeasures</a>. In proceedings of 2022 RIVF International Conference on Computing and Communication Technologies (RIVF). ISBN 978-1-6654-6166-5. Institute of Electrical and Electronics Engineers (IEEE) (January 2023). </li>
+              <li> Huu-Sy Le, Le Duy Tan, Huynh Kha Tu: <a href="https://ieeexplore.ieee.org/document/10013923"> A Review on 3D Object Detection for Self-Driving Cars </a> In proceedings of 2022 RIVF International Conference on Computing and Communication Technologies (RIVF). ISBN 978-1-6654-6167-2. Institute of Electrical and Electronics Engineers (IEEE) (January 2023). </li>
+              <li> Tran Bao Thanh, Tri-Hai Nguyen, Huynh Kha Tu, Le Duy Tan: <a href="https://ieeexplore.ieee.org/abstract/document/10013440">Lightweight IoT-Based System for COVID-19 Patient Health Monitoring and Prediction</a>. In proceedings of 2022 9th NAFOSTED Conference on Information and Computer Science (NICS). ISBN 978-1-6654-5422-3. Institute of Electrical and Electronics Engineers (IEEE) (January 2023). </li>
+            </ul>
+            <h1 class="mb-4">2022</h1>
+            <ul>
+              <li> Thong Bui, Le Duy Tan, Tri-Hai Nguyen, Bogdan Trawinski, Huy Tien Nguyen, Tung Le: <a href="https://link.springer.com/chapter/10.1007/978-3-031-21967-2_49">Blockchain-Based Decentralized Digital Content Management and Sharing System.</a> In proceedings of Asian Conference on Intelligent Information and Database Systems 2022. ISBN 978-3-031-21967-2. Springer (December 2022). </li>
+              <li> Quynh Anh Tran, Quang Hung Dang, Tung Le, Huy Tien Nguyen, Le Duy Tan: <a href="https://ieeexplore.ieee.org/document/9988756">Air Quality Monitoring and Forecasting System using IoT and Machine Learning Techniques.</a> In proceedings of 2022 6th International Conference on Green Technology and Sustainable Development (GTSD). ISBN 978-1-6654-6628-8. Institute of Electrical and Electronics Engineers (IEEE) (December 2022). </li>
+              <li> Thanh Quynh Le Song, June Ho, Le Duy Tan: <a href="https://ieeexplore.ieee.org/document/9989280">A Web Application to Support the Material Suppliers Selection for the Textile Industry using the AHP Method.</a> In proceedings of 2022 6th International Conference on Green Technology and Sustainable Development (GTSD). ISBN 978-1-6654-6628-8. Institute of Electrical and Electronics Engineers (IEEE) (December 2022). </li>
+              <li>Huynh Kha Tu, Ly Tu Nga, Le Tien Thuong:&nbsp; <a target="_blank" href="https://www.emeraldgrouppublishing.com/journal/ijwis" rel="noopener">An efficient model for copy-move image forgery detection</a>. International Journal of Web Information Systems : (2): 181-195 (August 2022), ISSN 17440084. </li>
+              <li>Khai Thien Tran, Huynh Kha Tu, Dac-Nhuong Le, Muhammad Arif , Hoa Minh Dinh:&nbsp; <a target="_blank" href="https://www.techscience.com/journal/iasc" rel="noopener">A Deep Trash Classification Model on Raspberry Pi 4</a>. Intelligent Automation &amp; Soft Computing : 35 (2): 2470-2491 (May 2022), ISSN 2326-005X. </li>
+              <li>Huynh Kha Tu, Nguyen Huynh Phuong Thanh:&nbsp; <a target="_blank" href="https://www.inderscience.com/jhome.php?jcode=ijiids" rel="noopener">Drunkenness Detection Using a CNN with adding Gaussian Noise and Blur in the Thermal Infrared Images</a>. Int. J. of Intelligent Information and Database Systems : 15 (4): 398-419 (March 2022), ISSN 17515866 </li>
+              <li>Tran Minh Duy, Huynh Kha Tu, Pham Van Hieu, Phan Anh Tu, Nguyen Quoc Khanh, Phan Nguyen Xuan Phuc, Ly Tu Nga:&nbsp; <a target="_blank" href="https://doi.org/10.1007/s42979-022-01365-w" rel="noopener">Analysis Performance of Integrated long-range RFID and Webcam</a>. SN Computer Science 3(473): 20 (December 2022), ISSN 2661-8907 </li>
+              <li>Huynh Kha Tu, Cong Man Tran, Huu Sy Le:&nbsp;A Model of Vietnamese Optical Character Recognition. In proceedings of 2022 RIVF International Conference on Computing and Communication Technologies (RIVF). Pages 404-409, Ho Chi Minh City, Vietnam, 2022: (December 2022), , ISBN 978-1-6654-6166-5.</li>
+            <li>Phu-Qui Vo, Nhan Tam Dang, Q Phu Nguyen, An Mai, Loan TT Nguyen, Quoc-Th&ocirc;ng Nguyen, Ngoc-Thanh Nguyen., Auto Machine Learning-Based Approach for Source Printer Identification. 14th ACIIDS., 2022.</li>
+<li>Huong Nguyen, An Nguyen, An Mai, Nhan Tam Dang., AI-app development for Yolov5-based face mask wearing detection., 9th NAFOSTED Conference on Information and Computer Science (NICS), 2022.</li>
+<li>An Mai, Nhat Nguyen, Q Phu Nguyen, Tuan Tran., Approach portfolio selection for Vietnamese stock market based on nonlinear shrinkage method., 14th International Conference on Knowledge and Systems Engineering (KSE)., 2022.</li>
+            <li>
+                Nguyễn, HMT, Đỗ, THT, & Nguyễn, NQ.(2022). Professional sports trainers’ burnout in fully online and blended classes: Innovative approaches in physical education and sports training. Frontier Education, 7(918599). doi: 10.3389/feduc.2022.918599
+            </li>
+            </ul>
+            <h1 class="mb-4">2021</h1>
+            <ul>
+              <li>Huynh Kha Tu, Ly Tu Nga, Nguyen Huynh Phuong Thanh:&nbsp; <a target="_blank" href="https://ord.hcmiu.edu.vn/rm/10.1007/s42979-021-00682-w" rel="noopener">Improving the accuracy in copy-move image detection: A model of sharpness and blurriness</a>. Springer Nature Computer Science : 2(2): 278 (May 2021), ISSN 2661-8907. </li>
+              <li>Huynh Kha Tu, Ly Tu Nga, Le Tien Thuong:&nbsp; <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-16-8062-5_11" rel="noopener">A Deep Learning-Based Method for Image Tampering Detection</a>. In proceedings of Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 1500: 170&ndash;184 (November 2021), ISBN 1865-0937. </li>
+              <li>Nguyen Trung Tri, Huynh Kha Tu:&nbsp; <a target="_blank" href="https://link.springer.com/book/10.1007/978-3-030-91387-8" rel="noopener">Spliced Image Forgery Detection Based on the Combination of Image Pre-processing and Inception V3</a>. In proceedings of Future Data and Security Engineering: 13076 : 308&ndash;322 (November 2021), ISBN 978-3-030-91387-8. </li>
+              <li>Ly Tu Nga, Huynh Kha Tu, Chiem Quoc Hung:&nbsp; <a target="_blank" href="https://ord.hcmiu.edu.vn/rm/10.15625/vap.2021.0080" rel="noopener">HỆ THỐNG ĐIỂM DANH TỰ ĐỘNG BẰNG C&Ocirc;NG NGHỆ NHẬN DẠNG TẦN SỐ V&Ocirc; TUYẾN VỚI KHOẢNG C&Aacute;CH TẦM XA</a>. In proceedings of KỶ YẾU HỘI NGHỊ KHOA HỌC C&Ocirc;NG NGHỆ QUỐC GIA LẦN THỨ XIV NGHI&Ecirc;N CỨU CƠ BẢN V&Agrave; ỨNG DỤNG C&Ocirc;NG NGHỆ TH&Ocirc;NG TIN. ISBN 978-604-9988-60-8. Hochiminh city, Vietnam: Nh&agrave; xuất bản Khoa học tự nhi&ecirc;n v&agrave; C&ocirc;ng nghệ (December 2021). </li>
+              <li>Chiem Quoc Hung, Huynh Kha Tu, Nguyen Minh Thien, Tran Minh Duy, Nguyen Phan Xuan Phuc, Ly Tu Nga:&nbsp; <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-030-91387-8_25" rel="noopener">Attendance Monitoring using Adjustable Power UHF RFID and Web-based Real-time Automated Information System</a>. In proceedings of International Conference on Future Data and Security Engineering. ISBN 978-3-030-91387-8. Ho Chi Minh University of Food Industry, Viet Nam: Lecture Notes in Computer Science (November 2021). </li>
+            <li>Loc Tran, Lam Pham, Tuan Tran, An Mai., Text classification problems via BERT embedding method and graph convolutional neural network., International Conference on Advanced Technologies for Communications., 2021.</li>
+<li>Loc Tran, Bich Ngo, Tuan Tran, Lam Pham, An Mai., On a development of sparse PCA method for face recognition problem., International Conference on Advanced Technologies for Communications (ATC)., 2021.</li>
+<li>Q Phu Nguyen, Nhan Tam Dang, An Mai, Van Sinh Nguyen., Features selection in microscopic printing analysis for source printer identification with machine learning., Future Data and Security Engineering., 2021.</li>
+            <li>
+                Quoc-Thông Nguyen, An Mai, Lionel Chagas, Nadège Reverdy-Bruas., Microscopic printing analysis and application for classification of source printer., Computers & Security., 2021.
+            </li>
+            </ul>
+            <h1 class="mb-4">2020</h1>
+            <ul>
+              <li>Huynh Kha Tu, Le Hai Duong, Nguyen Van Sinh, Tran Manh Ha:&nbsp; <a target="_blank" href="https://ord.hcmiu.edu.vn/rm/10.1007/s42979-021-00682-w" rel="noopener">Applying Peer-to-Peer Networks for Decentralized Customer-to-Customer Ecommerce Model</a>. In proceedings of Future Data and Security Engineering 2020. Quy Nhon, Vietnam: Springer (November 2020), ISBN 978-981-33-4369-6. </li>
+              <li>Huynh Kha Tu, Ly Tu Nga, Le Tien Thuong:&nbsp;ORB for detecting copy-move regions with scale and rotation in image forensics. In proceedings of Future Data and Security Engineering 2020. Quy Nhon, Vietnam: Springer (September 2020), ISBN 978-981-33-4369-6.</li>
+              <li>Văn Kh&aacute;nh Hưng, Huynh Kha Tu, Nguyen Quang Phu, Nguyen Van Sinh, Ly Tu Nga:&nbsp; <a href="https://ord.hcmiu.edu.vn/rm/home">Đ&Aacute;NH GI&Aacute; HIỆU SUẤT C&Aacute;C PH&Acirc;N LOẠI M&Aacute;Y HỌC CHO B&Agrave;I TO&Aacute;N ĐỊNH VỊ XE</a>. In proceedings of Hội nghị khoa học quốc gia về . ISBN 9786046717447. http://fair.conf.vn/images/FAIR-ChuongTrinh-2020.pdf: (October 2020). </li>
+                <li>Nhat Nguyen, Trung Nguyen, Tuan Tran, An Mai., Shrinkage Model Selection for Portfolio Optimization on Vietnam Stock Market., The Journal of Asian Finance, Economics, and Business, 135 &ndash; 145, 2020.</li>
+<li>Tuan Tran, Nhat Nguyen, Trung Nguyen, An Mai., Voting shrinkage algorithm for Covariance Matrix Estimation and its application to portfolio selection., 2020 IEEE RIVF International Conference on Computing and Communication Technologies (RIVF).</li>
+<li>Quan Dang, An Mai, Man Ngo, Thanh Bui., Rotat3D: A Knowledge Graph Embedding using Relational Rotation in 3D Vector Space., Knowledge and Systems Engineering., 2020.</li>
+<li>Man Ngo, An Mai, Thanh Bui., On an improvement of Graph Convolutional Network in semi-supervised learning., NICS., 2020.<br />An Mai, Loc Tran, Linh Tran, Nguyen Trinh., VGG deep neural network compression via SVD and CUR decomposition techniques., NICS., 2020.</li>
+            </ul>
+
+              <h1 class="mb-4">Before 2020</h1>
+              <ul>
+<li>Anh Thu Phan Ho, Bao An Mai Hoang, Wadih Sawaya &amp; Patrick Bas. &ldquo;Document Authentication Using Graphical Codes: Reliable Performance Analysis and Channel Optimization.&rdquo; EURASIP Journal on Information Security, Springer, 2014.</li>
+<li>Loc Tran, An Mai, Tho Quan, Linh Tran., Weighted un-normalized hypergraph Laplacian Eigenmaps for classification problems., International Journal of Advances in Soft Computing &amp; Its Applications, 2019.</li>
+<li>Loc Tran, Tho Quan, An Mai., PageRank algorithm for Directed Hypergraph., arXiv preprint, 2019.</li>
+<li>Loc Tran, Tuan Tran, Linh Tran, An Mai., Solve fraud detection problem by using graph based learning methods., arXiv preprint., 2019.</li>
+<li>Anh Thu Phan Ho, Bao An Mai Hoang, Wadih Sawaya &amp; Patrick Bas. &ldquo;Document Authentication Using Graphical Codes: Impacts of the Channel Model.&rdquo; Proceedings of ACM Workshop on Information Hiding and Multimedia Security, 2013.</li>
+<li>Bao An Mai Hoang, Wadih Sawaya &amp; Patrick Bas. &ldquo;Image Model and Printed Document Authentication: A Theoretical Analysis.&rdquo; Proceedings of IEEE International Conference on Image Processing, 2014.</li>
+<li>Anh Thu Phan Ho, Bao An Mai Hoang, Wadih Sawaya &amp; Patrick Bas. &ldquo;Authentication using graphical codes: Optimisation of the print and scan channels.&rdquo; Signal Processing Conference (EUSIPCO), 2014 Proceedings of the 22nd European</li>
+<li>Thanh Duong, Minh Tran, An Mai, Pricing and hedging Asian-style option in energy market with liquidiy risk, The Vietnam Symposium conference in Banking and Finance (VSBF), 2016</li>
+<li>Duc-Thinh Pham, Bao An Mai Hoang, Son Nguyen Thanh, Ha Nguyen, Vu Duong. &ldquo;A Constructive Intelligent Transportation System for Urban Traffic Network in Developing Countries via GPS Data from Multiple Transportation Modes&rdquo;., 2015 IEEE 18th International Conference on Intelligent Transportation Systems (ITSC).</li>
+<li>Quan Duong, Tan Tran, Duc-Thinh Pham, An Mai., A Simplified Framework for Air Route Clustering Based on ADS-B Data, 2019 IEEE-RIVF<br />Tan Tran, Duc-Thinh Pham, Quan Duong, An Mai., An Adaptive Hash-Based Text Deduplication for ADS-B Data-Dependent Trajectory Clustering Problem., 2019 IEEE-RIVF</li>
+<li>Tuan Tran, Loc Tran, An Mai., K-Segments Under Bagging approach: An experimental Study on Extremely Imbalanced Data Classification., &nbsp;2019 19th International Symposium on Communications and Information Technologies (ISCIT).</li>
+<li>Huynh Kha Tu, Le Tien Thuong, Huynh Van Khoa, Ly Tu Nga:&nbsp;<a target="_blank" href="http://feee-conf.com/isee2017/" rel="noopener">EDGES SHARPNESS ANALYSIS TO IMPROVE THE ACCURACY AND PROCESSING TIME IN IMAGE FORENSICS</a>. In proceedings of The 2017 International Symposium on Electrical and Electronics Engineering (ISEE 2017). Ho Chi Minh City, Vietnam: (November 2017), ISBN 978-604-73-5317-0.</li>
+<li>Huynh Kha Tu, Le Tien Thuong, Ha Viet Uyen Synh, Huynh Thanh Son, Huynh Van Khoa:&nbsp;Develop an algorithm for image forensics using feature comparison and sharpness estimation. In proceedings of International Conference on Recent Advances in Signal Processing, Telecommunications &amp; Computing. Danang, Vietnam: (January 2017), ISBN 978-1-5090-2291-5.</li>
+<li>Huynh Kha Tu, Le Tien Thuong, Ha Viet Uyen Synh, Huynh Van Khoa:&nbsp;<a target="_blank" href="http://ict.jst.udn.vn/index.php/jst/article/view/28/21" rel="noopener">Improving the Computational Cost for Copied Region Detection in Forensic Images</a>. Journal of Science and Technology: Issue on Information and Communications Technology 2(1): 55-63 (October 2016).</li>
+<li>Huynh Kha Tu, Le Tien Thuong, Ha Viet Uyen Synh, Marie Luong:&nbsp;<a target="_blank" href="https://ord.hcmiu.edu.vn/rm/10.14569/IJACSA.2016.070301" rel="noopener">A Robust Algorithm of Forgery Detection in Copy-Move and Spliced Images</a>. International Journal of Advanced Computer Science and Applications 7(3): (March 2016).</li>
+<li>Huynh Kha Tu, Le Tien Thuong, Ha Viet Uyen Synh, Huynh Van Khoa, Ly Tu Nga:&nbsp;<a target="_blank" href="https://ord.hcmiu.edu.vn/rm/feee-conf.com/isee2015/" rel="noopener">Forgery Detection and Identification of the Original and Duplicate Region in Copy-Move Images</a>. In proceedings of The International Symposium on Electrical and Electronics Engineering (ISEE) 2015. Ho Chi Minh City, Vietnam: (October 2015).</li>
+<li>Huynh Kha Tu, Le Tien Thuong, Ha Viet Uyen Synh, Huynh Van Khoa:&nbsp;<a target="_blank" href="https://conference.researchbib.com/view/event/44133" rel="noopener">The efficiency of applying DWT and feature extraction into copy-move images detection</a>. In proceedings of The 2015 International Conference on Advanced Technologies for Communications. ISBN . Ho Chi Minh City, Vietnam: (October 2015).</li>
+
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Testimonial Start -->
+    <!--
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonial</div>
+                    <h1 class="mb-4">What Say Our Clients!</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                        clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-white-50 footer pt-5">
+     <div class="container py-5">
+       <div class="row g-5">
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+           <a href="index.html" class="d-inline-block mb-3">
+             <img class="img-fluid" src="img/Logo_AIoT.png">
+           </a>
+           <p class="mb-0">Focused on innovation and collaboration, the lab drives advancements in technology, empowering sustainable growth and transformative solutions for the nation's future.</p>
+         </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+           <h5 class="text-white mb-4">Get In Touch</h5>
+           <p>
+             <i class="fa fa-map-marker-alt me-3"></i>Room 207, Information Technology Park, Vietnam National University Ho Chi Minh City (ITP), Linh Trung Ward, Thuc Duc City, Ho Chi Minh City, Vietnam
+           </p>
+           <p>
+             <i class="fa fa-phone-alt me-3"></i>(028) 37244270 ext. 3232
+           </p>
+           <p>
+             <i class="fa fa-envelope me-3"></i>info@aiotlab.vn
+           </p>
+           <div class="d-flex pt-2">
+             <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/aiotlab.vn">
+               <i class="fab fa-facebook-f"></i>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.tiktok.com/@aiotlabvn">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                 <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+               </svg>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCAoka7OSzy_KUtwYrGjyHHg">
+               <i class="fab fa-youtube"></i>
+             </a>
+             <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/aiot-lab-vn-b96070286/">
+               <i class="fab fa-linkedin-in"></i>
+             </a>
+           </div>
+         </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+           <h5 class="text-white mb-4">Popular Link</h5>
+           <a class="btn btn-link" href="about.html">About Us</a>
+           <a class="btn btn-link" href="contact.html">Contact Us</a>
+           <a class="btn btn-link" href="publication.html">Publications</a>
+           <a class="btn btn-link" href="project.html">Projects</a>
+         </div>
+         <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+           <h5 class="text-white mb-4">Our Services</h5>
+           <a class="btn btn-link" href="">Research and Development</a>
+           <a class="btn btn-link" href="">Education & Science</a>
+           <a class="btn btn-link" href="">Prototyping and Product Development</a>
+           <a class="btn btn-link" href="">Collaborative Projects</a>
+           <a class="btn btn-link" href="">Technology Transfer</a>
+         </div>
+       </div>
+     </div>
+     <div class="container wow fadeIn" data-wow-delay="0.1s">
+       <div class="copyright">
+         <div class="row">
+           <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> &copy; <a class="border-bottom" href="#">AIoT Lab</a>, All Right Reserved. </div>
+           <div class="col-md-6 text-center text-md-end">
+             <div class="footer-menu">
+               <a href="">Home</a>
+               <a href="">Cookies</a>
+               <a href="">Help</a>
+               <a href="">FAQs</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
