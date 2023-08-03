@@ -469,7 +469,7 @@ h6,
 /*** Footer ***/
 .footer {
     background: url(../img/footer.png) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .footer .btn.btn-social {
