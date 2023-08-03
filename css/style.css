@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0ACCB1;
+    --primary: #12B0B4;
     --secondary: #149FB4;
     --light: #F4F7FE;
     --dark: #14183E;
@@ -556,4 +556,8 @@ h6,
 .Tiktok::before {
    font: var(--fa-font-brands);
     content: '\F6CC';
+ }
+
+ .navbar-brand > img{
+    height: 50px;
  }
